@@ -1,4 +1,14 @@
+/* variable */
+
+:root {
+  --primary: #f15b22;
+  --heading: #151414;
+  --text: #444343;
+  --white: #ffffff;
+}
+
 /* default */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,3 +19,68 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
+p {
+  color: var(--text);
+  line-height: 26px;
+}
+
+/* reusable */
+
+.primary-btn {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 16px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  outline: 1px solid var(--primary);
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all .5s;
+}
+
+.primary-btn:hover {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+/* header start */
+
+header {
+  background-image: url("../assets/images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 200px 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-info {
+  width: 50%;
+  padding: 100px 0;
+  text-align: right;
+}
+
+.header-title {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.header-desc {
+  padding: 24px 0;
+}
+
+
+/* header end */
