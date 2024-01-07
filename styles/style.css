@@ -144,4 +144,29 @@ header {
   color: #16D887;
 }
 
+/* my plan section */
+
+.my-plan {
+  margin: 100px 0;
+}
+
+.my-plan .section-title {
+  text-align: center;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.plan-item h3{
+  padding-top: 24px;
+}
+
+.plan-item p {
+  color: #737272;
+}
+
 /* main end */
